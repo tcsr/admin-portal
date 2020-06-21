@@ -1,0 +1,35 @@
+.bg-odark {
+  background-color: #6cb332 !important;
+  height: 64px;
+}
+
+#user-menu {
+  background: #f4f4f4;
+  border-top: 4px solid #6cb332;
+  border-radius: 0px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  transform: translateY(18px);
+  transition: all 0.4s ease-in-out;
+}
+
+#user-menu:before {
+  content: "";
+  border-bottom: 10px solid #6cb332;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: -14px;
+  right: 16px;
+  z-index: 10;
+}
+
+#user-menu:after {
+  content: "";
+  border-bottom: 12px solid #6cb332;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  position: absolute;
+  top: -16px;
+  right: 14px;
+  z-index: 9;
+}

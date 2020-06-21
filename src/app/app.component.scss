@@ -1,0 +1,19 @@
+.layout-sidebar {
+  position: fixed;
+  left: 0;
+  top: 64px;
+  height: calc(100% - 64px);
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 250px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3);
+}
+
+.layout-content {
+  position: fixed;
+  left: 260px;
+  // padding-top: 64px;
+  background-color: #fff;
+  padding: 15px;
+}
