@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Side Navigation Bar</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+    <!-- <app-root _nghost-cim-c0="" ng-version="9.0.4"> -->
+    <div class="layout-wrapper layout-menu-static">
+        <!-- <app-topbar> -->
+        <div class="topbar"><a class="topbar-logo" href="#/"><img style="border: 0 none"
+                    src="assets/layout/images/logo-white.png"></a><a href="#" id="menu-button"><i
+                    class="fa fa-bars"></i></a><a href="#" id="user-display"><span class="username">Emma
+                    Davis</span><img src="assets/layout/images/avatar.png" style="border: 0px;"><i
+                    class="fa fa-angle-down"></i></a><label for="topbar-search"><i
+                    class="fa fa-search topbar-search-icon"></i></label><input class="topbar-search" id="topbar-search"
+                placeholder="Type your search here" type="text">
+            <ul class="fadeInDown" id="topbar-menu">
+                <li><a href="#"><i class="topbar-icon fa fa-fw fa-user"></i><span
+                            class="topbar-item-name">Profile</span></a>
+                    <ul>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-user"></i><span>Profile</span></a>
+                        </li>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-user-secret"></i><span>Privacy</span></a>
+                        </li>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-cog"></i><span>Settings</span></a>
+                        </li>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-sign-out"></i><span>Logout</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="topbar-icon fa fa-fw fa-cog"></i><span
+                            class="topbar-item-name">Settings</span></a>
+                    <ul>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-paint-brush"></i><span>Change
+                                    Theme</span><span class="topbar-badge">1</span></a></li>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-star-o"></i><span>Favorites</span></a>
+                        </li>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-lock"></i><span>Lock
+                                    Screen</span><span class="topbar-badge">3</span></a></li>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-picture-o"></i><span>Wallpaper</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="topbar-icon material-icons animated swing fa fa-fw fa-envelope-o"></i><span
+                            class="topbar-item-name">Messages</span><span
+                            class="topbar-badge animated rubberBand">4</span></a>
+                    <ul>
+                        <li role="menuitem"><a class="topbar-message" href="#"><img
+                                    src="assets/layout/images/avatar1.png" width="35"><span>Give me a
+                                    call</span></a></li>
+                        <li role="menuitem"><a class="topbar-message" href="#"><img
+                                    src="assets/layout/images/avatar2.png" width="35"><span>Reports
+                                    attached</span></a></li>
+                        <li role="menuitem"><a class="topbar-message" href="#"><img
+                                    src="assets/layout/images/avatar3.png" width="35"><span>About your
+                                    invoice</span></a></li>
+                        <li role="menuitem"><a class="topbar-message" href="#"><img
+                                    src="assets/layout/images/avatar2.png" width="35"><span>Meeting today</span></a>
+                        </li>
+                        <li role="menuitem"><a class="topbar-message" href="#"><img
+                                    src="assets/layout/images/avatar4.png" width="35"><span>Out of office</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="topbar-icon fa fa-fw fa-bell-o"></i><span
+                            class="topbar-item-name">Notifications</span><span
+                            class="topbar-badge animated rubberBand">2</span></a>
+                    <ul>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-tasks"></i><span>Pending
+                                    tasks</span></a></li>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-calendar-check-o"></i><span>Meeting
+                                    today</span></a></li>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-download"></i><span>Download</span></a>
+                        </li>
+                        <li role="menuitem"><a href="#"><i class="fa fa-fw fa-plane"></i><span>Book
+                                    flight</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- </app-topbar> -->
+        <div class="layout-main">
+            <!-- <app-menu> -->
+            <div id="sidebar" class="layout-menu-wrapper layout-menu-dark">
+                <div class="layout-menu-container">
+                    <div class="mobile-search"><i class="fa fa-fw fa-search topbar-search-icon"></i><input
+                            class="topbar-search" placeholder="Type your search here" type="text"></div>
+                    <ul class="layout-menu">
+                        <!---->
+                        <li app-menuitem="" class="ng-tns-c1-0 ng-star-inserted">
+                            <!---->
+                            <!---->
+                            <!----><a routerlinkactive="active-menuitem-routerlink"
+                                class="ng-tns-c1-0 ng-star-inserted active-menuitem-routerlink" tabindex="0"
+                                href="#/"><i class="ng-tns-c1-0 fa fa-fw fa-home"></i><span
+                                    class="ng-tns-c1-0">Dashboard</span>
+                                <!---->
+                                <!----></a>
+                            <div class="layout-menu-tooltip">
+                                <div class="layout-menu-tooltip-arrow"></div>
+                                <div class="layout-menu-tooltip-text">Dashboard</div>
+                            </div>
+                            <!---->
+                        </li>
+                        <li app-menuitem="" class="ng-tns-c1-1 ng-star-inserted">
+                            <!---->
+                            <!----><a class="ng-tns-c1-1 ng-star-inserted" tabindex="0"><i
+                                    class="ng-tns-c1-1 fa fa-fw fa-bars"></i><span class="ng-tns-c1-1">Menu
+                                    Modes</span>
+                                <!---->
+                                <!----><i class="fa fa-fw fa-angle-down ng-tns-c1-1 ng-star-inserted"></i></a>
+                            <!---->
+                            <div class="layout-menu-tooltip">
+                                <div class="layout-menu-tooltip-arrow"></div>
+                                <div class="layout-menu-tooltip-text">Menu Modes</div>
+                            </div>
+                            <!---->
+                        </li>
+                        <li app-menuitem="" class="ng-tns-c1-2 ng-star-inserted">
+                            <!---->
+                            <!----><a class="ng-tns-c1-2 ng-star-inserted" tabindex="0"><i
+                                    class="ng-tns-c1-2 fa fa-fw fa-magic"></i><span class="ng-tns-c1-2">Layout
+                                    Colors</span>
+                                <!---->
+                                <!----><i class="fa fa-fw fa-angle-down ng-tns-c1-2 ng-star-inserted"></i></a>
+                            <!---->
+                            <div class="layout-menu-tooltip">
+                                <div class="layout-menu-tooltip-arrow"></div>
+                                <div class="layout-menu-tooltip-text">Layout Colors</div>
+                            </div>
+                            <!---->
+                        </li>
+                        <li app-menuitem="" class="ng-tns-c1-3 ng-star-inserted">
+                            <!---->
+                            <!----><a class="ng-tns-c1-3 ng-star-inserted" tabindex="0"><i
+                                    class="ng-tns-c1-3 fa fa-fw fa-paint-brush"></i><span
+                                    class="ng-tns-c1-3">Themes</span>
+                                <!----><span class="menuitem-badge ng-tns-c1-3 ng-star-inserted">8</span>
+                                <!----><i class="fa fa-fw fa-angle-down ng-tns-c1-3 ng-star-inserted"></i></a>
+                            <!---->
+                            <div class="layout-menu-tooltip">
+                                <div class="layout-menu-tooltip-arrow"></div>
+                                <div class="layout-menu-tooltip-text">Themes</div>
+                            </div>
+                            <!---->
+                        </li>
+                        <li app-menuitem="" class="ng-tns-c1-4 ng-star-inserted">
+                            <!---->
+                            <!----><a class="ng-tns-c1-4 ng-star-inserted" tabindex="0"><i
+                                    class="ng-tns-c1-4 fa fa-fw fa-sitemap"></i><span
+                                    class="ng-tns-c1-4">Components</span>
+                                <!----><span class="menuitem-badge ng-tns-c1-4 ng-star-inserted">2</span>
+                                <!----><i class="fa fa-fw fa-angle-down ng-tns-c1-4 ng-star-inserted"></i></a>
+                            <!---->
+                            <div class="layout-menu-tooltip">
+                                <div class="layout-menu-tooltip-arrow"></div>
+                                <div class="layout-menu-tooltip-text">Components</div>
+                            </div>
+                            <!---->
+                        </li>
+                        <li app-menuitem="" class="ng-tns-c1-5 ng-star-inserted">
+                            <!---->
+                            <!----><a class="ng-tns-c1-5 ng-star-inserted" href="assets/pages/landing.html"
+                                target="_blank" tabindex="0"><i class="ng-tns-c1-5 fa fa-fw fa-certificate"></i><span
+                                    class="ng-tns-c1-5">Landing Page</span>
+                                <!---->
+                                <!----></a>
+                            <!---->
+                            <div class="layout-menu-tooltip">
+                                <div class="layout-menu-tooltip-arrow"></div>
+                                <div class="layout-menu-tooltip-text">Landing Page</div>
+                            </div>
+                            <!---->
+                        </li>
+                        <li app-menuitem="" class="ng-tns-c1-6 ng-star-inserted">
+                            <!---->
+                            <!----><a class="ng-tns-c1-6 ng-star-inserted" tabindex="0"><i
+                                    class="ng-tns-c1-6 fa fa-fw fa-life-saver"></i><span class="ng-tns-c1-6">Template
+                                    Pages</span>
+                                <!---->
+                                <!----><i class="fa fa-fw fa-angle-down ng-tns-c1-6 ng-star-inserted"></i></a>
+                            <!---->
+                            <div class="layout-menu-tooltip">
+                                <div class="layout-menu-tooltip-arrow"></div>
+                                <div class="layout-menu-tooltip-text">Template Pages</div>
+                            </div>
+                            <!---->
+                        </li>
+                        <li app-menuitem="" class="ng-tns-c1-7 ng-star-inserted">
+                            <!---->
+                            <!----><a class="ng-tns-c1-7 ng-star-inserted" tabindex="0"><i
+                                    class="ng-tns-c1-7 fa fa-fw fa-gg"></i><span class="ng-tns-c1-7">Menu
+                                    Hierarchy</span>
+                                <!---->
+                                <!----><i class="fa fa-fw fa-angle-down ng-tns-c1-7 ng-star-inserted"></i></a>
+                            <!---->
+                            <div class="layout-menu-tooltip">
+                                <div class="layout-menu-tooltip-arrow"></div>
+                                <div class="layout-menu-tooltip-text">Menu Hierarchy</div>
+                            </div>
+                            <!---->
+                        </li>
+                        <li app-menuitem="" class="ng-tns-c1-8 ng-star-inserted">
+                            <!---->
+                            <!---->
+                            <!----><a routerlinkactive="active-menuitem-routerlink" class="ng-tns-c1-8 ng-star-inserted"
+                                tabindex="0" href="#/utils"><i class="ng-tns-c1-8 fa fa-fw fa-wrench"></i><span
+                                    class="ng-tns-c1-8">Utils</span>
+                                <!---->
+                                <!----></a>
+                            <div class="layout-menu-tooltip">
+                                <div class="layout-menu-tooltip-arrow"></div>
+                                <div class="layout-menu-tooltip-text">Utils</div>
+                            </div>
+                            <!---->
+                        </li>
+                        <li app-menuitem="" class="ng-tns-c1-9 ng-star-inserted">
+                            <!---->
+                            <!---->
+                            <!----><a routerlinkactive="active-menuitem-routerlink" class="ng-tns-c1-9 ng-star-inserted"
+                                tabindex="0" href="#/documentation"><i class="ng-tns-c1-9 fa fa-fw fa-book"></i><span
+                                    class="ng-tns-c1-9">Documentation</span>
+                                <!---->
+                                <!----></a>
+                            <div class="layout-menu-tooltip">
+                                <div class="layout-menu-tooltip-arrow"></div>
+                                <div class="layout-menu-tooltip-text">Documentation</div>
+                            </div>
+                            <!---->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- </app-menu> -->
+            <div class="layout-content">
+                <!-- <router-outlet></router-outlet> -->
+              Content
+            </div>
+        </div>
+        <!---->
+    </div>
+    <!-- </app-root> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#menu-button').click(function () {
+                $('.layout-menu-static').toggleClass('layout-menu-static-inactive');
+            })
+        });
+    </script>
+</body>
+
+</html>
